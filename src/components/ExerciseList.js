@@ -42,6 +42,7 @@ function deleteExercise(id){
 
 
   return (
+    <div className='container'>
     <div className='table-responsive w-100' style={{"overflowX": "auto"}}>
       <br/>
   <h3 className='text-center'>Logged Exercises</h3>
@@ -76,6 +77,7 @@ function deleteExercise(id){
         })
       }
   </table>
+</div>
 </div>
   )
 }

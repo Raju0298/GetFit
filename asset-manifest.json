@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Raju0298/GetFit.git/static/css/main.e749ef3e.css",
-    "main.js": "/Raju0298/GetFit.git/static/js/main.e08d84e8.js",
+    "main.js": "/Raju0298/GetFit.git/static/js/main.4ff7a8de.js",
     "static/js/787.cda612ba.chunk.js": "/Raju0298/GetFit.git/static/js/787.cda612ba.chunk.js",
     "index.html": "/Raju0298/GetFit.git/index.html",
     "main.e749ef3e.css.map": "/Raju0298/GetFit.git/static/css/main.e749ef3e.css.map",
-    "main.e08d84e8.js.map": "/Raju0298/GetFit.git/static/js/main.e08d84e8.js.map",
+    "main.4ff7a8de.js.map": "/Raju0298/GetFit.git/static/js/main.4ff7a8de.js.map",
     "787.cda612ba.chunk.js.map": "/Raju0298/GetFit.git/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e749ef3e.css",
-    "static/js/main.e08d84e8.js"
+    "static/js/main.4ff7a8de.js"
   ]
 }

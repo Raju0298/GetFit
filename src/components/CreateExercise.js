@@ -18,7 +18,7 @@ const CreateExercise = () => {
   useEffect(() => {
 
       axios({
-        url: 'http://localhost:5000/users/',
+        url: 'https://getfitback-raju0298.onrender.com/users/',
         method: 'get'
       })
       .then(res =>  {
@@ -60,7 +60,7 @@ const CreateExercise = () => {
     }
 
     console.log(newExercise)
-    axios.post('http://localhost:5000/exercises/add', newExercise)
+    axios.post('https://getfitback-raju0298.onrender.com/exercises/add', newExercise)
     .then(res => console.log(res.data))
     .catch(err => console.log('Error: '+err))
 

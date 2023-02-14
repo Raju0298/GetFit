@@ -14,7 +14,7 @@ const CreateUser = () => {
     }
     console.log(newUser)
     
-    axios.post('http://localhost:5000/users/add', newUser)
+    axios.post('https://getfitback-raju0298.onrender.com/users/add', newUser)
     .then(res => console.log(res.data))
     .catch(err => console.log('Error: '+err))
 

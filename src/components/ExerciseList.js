@@ -19,7 +19,7 @@ const [exerciseList, setExerciselist] = useState([])
 useEffect(() => {
     
     axios({
-      url: 'http://localhost:5000/exercises/',
+      url: 'https://getfitback-raju0298.onrender.com/exercises/',
       method: 'get'
     })
     .then(res =>  {
@@ -31,7 +31,7 @@ useEffect(() => {
 
 function deleteExercise(id){
   axios({
-    url: 'http://localhost:5000/exercises/'+id,
+    url: 'https://getfitback-raju0298.onrender.com/exercises/'+id,
     method: 'delete'
   })
   .then(res => {
